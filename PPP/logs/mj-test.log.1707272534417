@@ -1,0 +1,105 @@
+INFO  03:21:41,967 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  03:21:42,005 - #41 program
+INFO  03:21:42,005 - #47 test301
+INFO  03:21:42,005 - #29 {
+INFO  03:21:42,009 - #21 void
+INFO  03:21:42,009 - #2 main
+INFO  03:21:42,009 - #24 (
+INFO  03:21:42,010 - #6 )
+INFO  03:21:42,010 - #47 int
+INFO  03:21:42,012 - #47 a
+INFO  03:21:42,014 - #27 [
+INFO  03:21:42,014 - #42 ]
+INFO  03:21:42,014 - #8 ,
+INFO  03:21:42,017 - #47 b
+INFO  03:21:42,017 - #10 ;
+INFO  03:21:42,018 - #29 {
+INFO  03:21:42,020 - #47 a
+INFO  03:21:42,021 - #9 =
+INFO  03:21:42,022 - #12 new
+INFO  03:21:42,023 - #47 int
+INFO  03:21:42,023 - #27 [
+INFO  03:21:42,023 - #46 3
+INFO  03:21:42,031 - #42 ]
+INFO  03:21:42,034 - #10 ;
+INFO  03:21:42,035 - #13 }
+INFO  03:21:42,035 - #13 }
+INFO  03:21:42,042 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       a
+        SquareBracesHere(
+        ) [SquareBracesHere]
+        SquareBracesLoopList(
+          SquareBracesLoopEpsilon(
+          ) [SquareBracesLoopEpsilon]
+         b
+          SquareBracesInnerLoopEpsilon(
+          ) [SquareBracesInnerLoopEpsilon]
+        ) [SquareBracesLoopList]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+      StatementFirst(
+        DesignatorStatementFirst(
+          DesignatorSecond(
+           a
+            DesignatorListEpsilon(
+            ) [DesignatorListEpsilon]
+          ) [DesignatorSecond]
+          Assignop(
+          ) [Assignop]
+          ExprSecond(
+            Term(
+              FactorNewType(
+                Typesimple(
+                 int
+                ) [Typesimple]
+                ArrayIndexDsingerica(
+                  ExprSecond(
+                    Term(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                    ) [Term]
+                    OpTermLoopEpsilon(
+                    ) [OpTermLoopEpsilon]
+                  ) [ExprSecond]
+                ) [ArrayIndexDsingerica]
+              ) [FactorNewType]
+              MulOpFactorLoopEpsilon(
+              ) [MulOpFactorLoopEpsilon]
+            ) [Term]
+            OpTermLoopEpsilon(
+            ) [OpTermLoopEpsilon]
+          ) [ExprSecond]
+        ) [DesignatorStatementFirst]
+      ) [StatementFirst]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  03:21:42,042 - ===================================
+ERROR 03:21:42,046 - Tip neterminala Expr mora biti kompatibilan pri dodeli sa tipom neterminala Designator na liniji 10
+INFO  03:21:42,046 - ===================================
+ERROR 03:21:42,046 - Parsiranje NIJE uspesno zavrseno!

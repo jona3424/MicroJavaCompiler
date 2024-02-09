@@ -1,0 +1,402 @@
+INFO  13:07:03,239 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  13:07:03,263 - #41 program
+INFO  13:07:03,263 - #47 test301
+INFO  13:07:03,263 - #38 namespace
+INFO  13:07:03,264 - #47 Konstante
+INFO  13:07:03,264 - #29 {
+INFO  13:07:03,265 - #22 const
+INFO  13:07:03,266 - #47 int
+INFO  13:07:03,266 - #47 nula
+INFO  13:07:03,267 - #9 =
+INFO  13:07:03,267 - #46 0
+INFO  13:07:03,267 - #10 ;
+INFO  13:07:03,268 - #22 const
+INFO  13:07:03,269 - #47 int
+INFO  13:07:03,269 - #47 jedan
+INFO  13:07:03,269 - #9 =
+INFO  13:07:03,269 - #46 1
+INFO  13:07:03,269 - #10 ;
+INFO  13:07:03,269 - #22 const
+INFO  13:07:03,269 - #47 int
+INFO  13:07:03,269 - #47 pet
+INFO  13:07:03,277 - #9 =
+INFO  13:07:03,277 - #46 5
+INFO  13:07:03,277 - #10 ;
+INFO  13:07:03,277 - #29 {
+INFO  13:07:03,277 - #13 }
+INFO  13:07:03,277 - #13 }
+INFO  13:07:03,278 - #38 namespace
+INFO  13:07:03,278 - #47 Nizovi
+INFO  13:07:03,278 - #29 {
+INFO  13:07:03,278 - #47 int
+INFO  13:07:03,278 - #47 niz
+INFO  13:07:03,279 - #27 [
+INFO  13:07:03,279 - #42 ]
+INFO  13:07:03,279 - #10 ;
+INFO  13:07:03,281 - #47 char
+INFO  13:07:03,282 - #47 nizch
+INFO  13:07:03,282 - #27 [
+INFO  13:07:03,282 - #42 ]
+INFO  13:07:03,282 - #8 ,
+INFO  13:07:03,282 - #47 a
+INFO  13:07:03,282 - #27 [
+INFO  13:07:03,282 - #42 ]
+INFO  13:07:03,282 - #8 ,
+INFO  13:07:03,284 - #47 b
+INFO  13:07:03,285 - #8 ,
+INFO  13:07:03,286 - #47 c
+INFO  13:07:03,286 - #27 [
+INFO  13:07:03,286 - #42 ]
+INFO  13:07:03,286 - #10 ;
+INFO  13:07:03,286 - #29 {
+INFO  13:07:03,286 - #13 }
+INFO  13:07:03,286 - #13 }
+INFO  13:07:03,286 - #47 int
+INFO  13:07:03,287 - #47 a
+INFO  13:07:03,287 - #10 ;
+INFO  13:07:03,288 - #29 {
+INFO  13:07:03,288 - #21 void
+INFO  13:07:03,288 - #2 main
+INFO  13:07:03,288 - #24 (
+INFO  13:07:03,289 - #6 )
+INFO  13:07:03,289 - #47 int
+INFO  13:07:03,289 - #47 bodovi
+INFO  13:07:03,290 - #10 ;
+INFO  13:07:03,290 - #47 bool
+INFO  13:07:03,290 - #47 bt
+INFO  13:07:03,290 - #10 ;
+INFO  13:07:03,290 - #47 int
+INFO  13:07:03,290 - #47 a
+INFO  13:07:03,290 - #10 ;
+INFO  13:07:03,290 - #29 {
+INFO  13:07:03,290 - #47 a
+INFO  13:07:03,291 - #9 =
+INFO  13:07:03,291 - #46 10
+INFO  13:07:03,292 - #10 ;
+INFO  13:07:03,293 - #47 Nizovi
+INFO  13:07:03,293 - #3 :
+INFO  13:07:03,294 - #3 :
+INFO  13:07:03,294 - #47 a
+INFO  13:07:03,294 - #27 [
+INFO  13:07:03,294 - #47 Nizovi
+INFO  13:07:03,294 - #3 :
+INFO  13:07:03,294 - #3 :
+INFO  13:07:03,294 - #47 a
+INFO  13:07:03,294 - #27 [
+INFO  13:07:03,294 - #47 Konstante
+INFO  13:07:03,294 - #3 :
+INFO  13:07:03,294 - #3 :
+INFO  13:07:03,294 - #47 pet
+INFO  13:07:03,294 - #42 ]
+INFO  13:07:03,294 - #33 /
+INFO  13:07:03,295 - #46 6
+INFO  13:07:03,296 - #42 ]
+INFO  13:07:03,296 - #9 =
+INFO  13:07:03,297 - #46 2
+INFO  13:07:03,297 - #10 ;
+INFO  13:07:03,297 - #13 }
+INFO  13:07:03,297 - #13 }
+INFO  13:07:03,305 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ImaNamespace(
+    Namespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclList(
+            ) [NoDeclList]
+            DeclType1(
+              ConstDecl(
+                ConstDeclType(
+                  Typesimple(
+                   int
+                  ) [Typesimple]
+                ) [ConstDeclType]
+               nula
+                ConstNum(
+                 0
+                ) [ConstNum]
+                ConstDeclLoopEpsilon(
+                ) [ConstDeclLoopEpsilon]
+              ) [ConstDecl]
+            ) [DeclType1]
+          ) [DeclarationsList]
+          DeclType1(
+            ConstDecl(
+              ConstDeclType(
+                Typesimple(
+                 int
+                ) [Typesimple]
+              ) [ConstDeclType]
+             jedan
+              ConstNum(
+               1
+              ) [ConstNum]
+              ConstDeclLoopEpsilon(
+              ) [ConstDeclLoopEpsilon]
+            ) [ConstDecl]
+          ) [DeclType1]
+        ) [DeclarationsList]
+        DeclType1(
+          ConstDecl(
+            ConstDeclType(
+              Typesimple(
+               int
+              ) [Typesimple]
+            ) [ConstDeclType]
+           pet
+            ConstNum(
+             5
+            ) [ConstNum]
+            ConstDeclLoopEpsilon(
+            ) [ConstDeclLoopEpsilon]
+          ) [ConstDecl]
+        ) [DeclType1]
+      ) [DeclarationsList]
+    ) [Namespace]
+    ImaNamespace(
+      Namespace(
+        NamespaceName(
+         Nizovi
+        ) [NamespaceName]
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclList(
+            ) [NoDeclList]
+            DeclType2(
+              VarDecl(
+                VarDeclType(
+                  Typesimple(
+                   int
+                  ) [Typesimple]
+                ) [VarDeclType]
+               niz
+                SquareBracesHere(
+                ) [SquareBracesHere]
+                SquareBracesLoopEpsilon(
+                ) [SquareBracesLoopEpsilon]
+              ) [VarDecl]
+            ) [DeclType2]
+          ) [DeclarationsList]
+          DeclType2(
+            VarDecl(
+              VarDeclType(
+                Typesimple(
+                 char
+                ) [Typesimple]
+              ) [VarDeclType]
+             nizch
+              SquareBracesHere(
+              ) [SquareBracesHere]
+              SquareBracesLoopList(
+                SquareBracesLoopList(
+                  SquareBracesLoopList(
+                    SquareBracesLoopEpsilon(
+                    ) [SquareBracesLoopEpsilon]
+                   a
+                    SquareBracesInnerLoopHere(
+                    ) [SquareBracesInnerLoopHere]
+                  ) [SquareBracesLoopList]
+                 b
+                  SquareBracesInnerLoopEpsilon(
+                  ) [SquareBracesInnerLoopEpsilon]
+                ) [SquareBracesLoopList]
+               c
+                SquareBracesInnerLoopHere(
+                ) [SquareBracesInnerLoopHere]
+              ) [SquareBracesLoopList]
+            ) [VarDecl]
+          ) [DeclType2]
+        ) [DeclarationsList]
+      ) [Namespace]
+      NemaNamespace(
+      ) [NemaNamespace]
+    ) [ImaNamespace]
+  ) [ImaNamespace]
+  DeclarationsList(
+    NoDeclList(
+    ) [NoDeclList]
+    DeclType2(
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       a
+        SquareBracesEpsilon(
+        ) [SquareBracesEpsilon]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [DeclType2]
+  ) [DeclarationsList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListList(
+        VarDeclListList(
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+          VarDecl(
+            VarDeclType(
+              Typesimple(
+               int
+              ) [Typesimple]
+            ) [VarDeclType]
+           bodovi
+            SquareBracesEpsilon(
+            ) [SquareBracesEpsilon]
+            SquareBracesLoopEpsilon(
+            ) [SquareBracesLoopEpsilon]
+          ) [VarDecl]
+        ) [VarDeclListList]
+        VarDecl(
+          VarDeclType(
+            Typesimple(
+             bool
+            ) [Typesimple]
+          ) [VarDeclType]
+         bt
+          SquareBracesEpsilon(
+          ) [SquareBracesEpsilon]
+          SquareBracesLoopEpsilon(
+          ) [SquareBracesLoopEpsilon]
+        ) [VarDecl]
+      ) [VarDeclListList]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       a
+        SquareBracesEpsilon(
+        ) [SquareBracesEpsilon]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListList(
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+        StatementFirst(
+          DesignatorStatementFirst(
+            DesignatorSecond(
+             a
+              DesignatorListEpsilon(
+              ) [DesignatorListEpsilon]
+            ) [DesignatorSecond]
+            Assignop(
+            ) [Assignop]
+            ExprSecond(
+              Term(
+                FactorNum(
+                 10
+                ) [FactorNum]
+                MulOpFactorLoopEpsilon(
+                ) [MulOpFactorLoopEpsilon]
+              ) [Term]
+              OpTermLoopEpsilon(
+              ) [OpTermLoopEpsilon]
+            ) [ExprSecond]
+          ) [DesignatorStatementFirst]
+        ) [StatementFirst]
+      ) [StatementListList]
+      StatementFirst(
+        DesignatorStatementFirst(
+          DesignatorFirst(
+           Nizovi
+           a
+            DesignatorListForArray(
+              DesignatorListEpsilon(
+              ) [DesignatorListEpsilon]
+              ArrayIndexDsingerica(
+                ExprSecond(
+                  Term(
+                    FactorDes(
+                      DesignatorFirst(
+                       Nizovi
+                       a
+                        DesignatorListForArray(
+                          DesignatorListEpsilon(
+                          ) [DesignatorListEpsilon]
+                          ArrayIndexDsingerica(
+                            ExprSecond(
+                              Term(
+                                FactorDes(
+                                  DesignatorFirst(
+                                   Konstante
+                                   pet
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                  ) [DesignatorFirst]
+                                ) [FactorDes]
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                              ) [Term]
+                              OpTermLoopEpsilon(
+                              ) [OpTermLoopEpsilon]
+                            ) [ExprSecond]
+                          ) [ArrayIndexDsingerica]
+                        ) [DesignatorListForArray]
+                      ) [DesignatorFirst]
+                    ) [FactorDes]
+                    MulOpFactorLoopList(
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                      Div(
+                      ) [Div]
+                      FactorNum(
+                       6
+                      ) [FactorNum]
+                    ) [MulOpFactorLoopList]
+                  ) [Term]
+                  OpTermLoopEpsilon(
+                  ) [OpTermLoopEpsilon]
+                ) [ExprSecond]
+              ) [ArrayIndexDsingerica]
+            ) [DesignatorListForArray]
+          ) [DesignatorFirst]
+          Assignop(
+          ) [Assignop]
+          ExprSecond(
+            Term(
+              FactorNum(
+               2
+              ) [FactorNum]
+              MulOpFactorLoopEpsilon(
+              ) [MulOpFactorLoopEpsilon]
+            ) [Term]
+            OpTermLoopEpsilon(
+            ) [OpTermLoopEpsilon]
+          ) [ExprSecond]
+        ) [DesignatorStatementFirst]
+      ) [StatementFirst]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  13:07:03,305 - ===================================
+INFO  13:07:03,311 - 1
+INFO  13:07:03,311 - 1
+INFO  13:07:03,311 - Mulop factor odje je :rs.etf.pp1.symboltable.concepts.Struct@396a51ab
+INFO  13:07:03,311 - 1 and MulOpFactorLoopList(
+  MulOpFactorLoopEpsilon(
+  ) [MulOpFactorLoopEpsilon]
+  Div(
+  ) [Div]
+  FactorNum(
+   6
+  ) [FactorNum]
+) [MulOpFactorLoopList]
+ERROR 13:07:03,311 - Term i Factor moraju biti tipa int. Greska na liniji: 28 na liniji 28
+ERROR 13:07:03,311 - Ne mozes da indeksiras promjenljivu sa tipom koji nije int
+INFO  13:07:03,311 - 1
+INFO  13:07:03,311 - ===================================

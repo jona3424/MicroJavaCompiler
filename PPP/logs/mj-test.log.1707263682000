@@ -1,0 +1,123 @@
+INFO  00:02:21,521 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  00:02:21,544 - #41 program
+INFO  00:02:21,544 - #47 test301
+INFO  00:02:21,545 - #29 {
+INFO  00:02:21,547 - #21 void
+INFO  00:02:21,548 - #2 main
+INFO  00:02:21,548 - #24 (
+INFO  00:02:21,549 - #6 )
+INFO  00:02:21,549 - #47 int
+INFO  00:02:21,551 - #47 bodovi
+INFO  00:02:21,553 - #27 [
+INFO  00:02:21,553 - #42 ]
+INFO  00:02:21,553 - #10 ;
+INFO  00:02:21,557 - #29 {
+INFO  00:02:21,560 - #47 bodovi
+INFO  00:02:21,561 - #27 [
+INFO  00:02:21,565 - #46 1
+INFO  00:02:21,565 - #42 ]
+INFO  00:02:21,568 - #9 =
+INFO  00:02:21,570 - #46 10
+INFO  00:02:21,571 - #10 ;
+INFO  00:02:21,572 - #37 print
+INFO  00:02:21,580 - #24 (
+INFO  00:02:21,580 - #47 bodovi
+INFO  00:02:21,580 - #6 )
+INFO  00:02:21,581 - #10 ;
+INFO  00:02:21,581 - #13 }
+INFO  00:02:21,581 - #13 }
+INFO  00:02:21,593 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       bodovi
+        SquareBracesHere(
+        ) [SquareBracesHere]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListList(
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+        StatementFirst(
+          DesignatorStatementFirst(
+            DesignatorSecond(
+             bodovi
+              DesignatorListForArray(
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+                ArrayIndexDsingerica(
+                  ExprSecond(
+                    Term(
+                      FactorNum(
+                       1
+                      ) [FactorNum]
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                    ) [Term]
+                    OpTermLoopEpsilon(
+                    ) [OpTermLoopEpsilon]
+                  ) [ExprSecond]
+                ) [ArrayIndexDsingerica]
+              ) [DesignatorListForArray]
+            ) [DesignatorSecond]
+            Assignop(
+            ) [Assignop]
+            ExprSecond(
+              Term(
+                FactorNum(
+                 10
+                ) [FactorNum]
+                MulOpFactorLoopEpsilon(
+                ) [MulOpFactorLoopEpsilon]
+              ) [Term]
+              OpTermLoopEpsilon(
+              ) [OpTermLoopEpsilon]
+            ) [ExprSecond]
+          ) [DesignatorStatementFirst]
+        ) [StatementFirst]
+      ) [StatementListList]
+      PrintStatementThird(
+        ExprSecond(
+          Term(
+            FactorDes(
+              DesignatorSecond(
+               bodovi
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+              ) [DesignatorSecond]
+            ) [FactorDes]
+            MulOpFactorLoopEpsilon(
+            ) [MulOpFactorLoopEpsilon]
+          ) [Term]
+          OpTermLoopEpsilon(
+          ) [OpTermLoopEpsilon]
+        ) [ExprSecond]
+        OptPrintPartEpsilon(
+        ) [OptPrintPartEpsilon]
+      ) [PrintStatementThird]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:02:21,594 - ===================================
+INFO  00:02:21,598 - ===================================
+INFO  00:02:21,603 - 1
+INFO  00:02:21,604 - Parsiranje uspesno zavrseno!

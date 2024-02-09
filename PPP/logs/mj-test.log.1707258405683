@@ -1,0 +1,23 @@
+INFO  23:22:43,054 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  23:22:43,059 - #41 program
+INFO  23:22:43,059 - #47 test301
+INFO  23:22:43,059 - #29 {
+INFO  23:22:43,059 - #21 void
+INFO  23:22:43,059 - #2 main
+INFO  23:22:43,059 - #24 (
+INFO  23:22:43,059 - #6 )
+INFO  23:22:43,059 - #47 int
+INFO  23:22:43,059 - #47 bodovi
+INFO  23:22:43,059 - #10 ;
+INFO  23:22:43,060 - #29 {
+INFO  23:22:43,060 - #47 bodovi
+INFO  23:22:43,060 - #9 =
+INFO  23:22:43,060 - #46 10
+INFO  23:22:43,060 - #10 ;
+INFO  23:22:43,060 - #37 print
+INFO  23:22:43,060 - #24 (
+INFO  23:22:43,060 - #47 bodovi
+INFO  23:22:43,060 - #6 )
+INFO  23:22:43,060 - #10 ;
+INFO  23:22:43,069 - #13 }
+INFO  23:22:43,069 - #13 }

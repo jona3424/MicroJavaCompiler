@@ -1,0 +1,105 @@
+INFO  03:23:49,034 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  03:23:49,064 - #41 program
+INFO  03:23:49,064 - #47 test301
+INFO  03:23:49,064 - #29 {
+INFO  03:23:49,067 - #21 void
+INFO  03:23:49,067 - #2 main
+INFO  03:23:49,068 - #24 (
+INFO  03:23:49,068 - #6 )
+INFO  03:23:49,069 - #47 int
+INFO  03:23:49,070 - #47 a
+INFO  03:23:49,071 - #27 [
+INFO  03:23:49,071 - #42 ]
+INFO  03:23:49,071 - #8 ,
+INFO  03:23:49,073 - #47 b
+INFO  03:23:49,073 - #10 ;
+INFO  03:23:49,074 - #29 {
+INFO  03:23:49,077 - #47 a
+INFO  03:23:49,078 - #9 =
+INFO  03:23:49,079 - #12 new
+INFO  03:23:49,080 - #47 int
+INFO  03:23:49,080 - #27 [
+INFO  03:23:49,080 - #46 3
+INFO  03:23:49,081 - #42 ]
+INFO  03:23:49,082 - #10 ;
+INFO  03:23:49,083 - #13 }
+INFO  03:23:49,083 - #13 }
+INFO  03:23:49,090 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       a
+        SquareBracesHere(
+        ) [SquareBracesHere]
+        SquareBracesLoopList(
+          SquareBracesLoopEpsilon(
+          ) [SquareBracesLoopEpsilon]
+         b
+          SquareBracesInnerLoopEpsilon(
+          ) [SquareBracesInnerLoopEpsilon]
+        ) [SquareBracesLoopList]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+      StatementFirst(
+        DesignatorStatementFirst(
+          DesignatorSecond(
+           a
+            DesignatorListEpsilon(
+            ) [DesignatorListEpsilon]
+          ) [DesignatorSecond]
+          Assignop(
+          ) [Assignop]
+          ExprSecond(
+            Term(
+              FactorNewType(
+                Typesimple(
+                 int
+                ) [Typesimple]
+                ArrayIndexDsingerica(
+                  ExprSecond(
+                    Term(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                    ) [Term]
+                    OpTermLoopEpsilon(
+                    ) [OpTermLoopEpsilon]
+                  ) [ExprSecond]
+                ) [ArrayIndexDsingerica]
+              ) [FactorNewType]
+              MulOpFactorLoopEpsilon(
+              ) [MulOpFactorLoopEpsilon]
+            ) [Term]
+            OpTermLoopEpsilon(
+            ) [OpTermLoopEpsilon]
+          ) [ExprSecond]
+        ) [DesignatorStatementFirst]
+      ) [StatementFirst]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  03:23:49,090 - ===================================
+INFO  03:23:49,093 - ===================================
+INFO  03:23:49,098 - 2
+INFO  03:23:49,099 - Parsiranje uspesno zavrseno!

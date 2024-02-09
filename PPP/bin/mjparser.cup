@@ -1,0 +1,216 @@
+package rs.ac.bg.etf.pp1;
+
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+
+// import java.io.*;
+import rs.ac.bg.etf.pp1.ast.*;
+
+
+parser code {:
+	
+	boolean errorDetected = false;
+	
+	Logger log = Logger.getLogger(getClass());
+   
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+    	errorDetected = true;
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+    public void report_error(String message, Object info) {
+    	errorDetected = true;
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.error(msg.toString());
+    }
+    
+    public void report_info(String message, Object info) {
+    	StringBuilder msg = new StringBuilder(message); 
+    	if (info instanceof Symbol)
+            msg.append (" na liniji ").append(((Symbol)info).left);
+        log.info(msg.toString());
+    }
+    
+    
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+
+terminal MAIN, COLON, PLUS, FOR, RPAREN, STATIC, COMMA, OP_EQUAL, SEMICOLON, EXTENDS, NEW, RBRACE, ELSE, IF, POINTER, MINUS, GT_EQUAL, NOT_EQUAL, STOP, VOID, CONST, AND, LPAREN, EQUAL, LESSER, LSQUARE, BREAK, LBRACE, READ, MODULE, INCREMENT, DIVISION, GREATER, LT_EQUAL, MULTIPLICATION, PRINT, NAMESPACE, CLASS, DECREMENT, PROG, RSQUARE, RETURN, CONTINUE, OR;
+
+
+terminal Integer NUMBER ;
+terminal String IDENT ;
+terminal Character CHAR ;
+terminal Boolean BOOL ;
+
+
+nonterminal  NamespaceList, DeclList, VarDeclList, StatementList;
+nonterminal Namespace;
+nonterminal Decl, VarDecl;
+nonterminal Consts, ConstDeclType, VarDeclType;
+nonterminal SquareBraces, SquareBracesLoop, SquareBracesInnerLoop;
+nonterminal IndentOpt;
+nonterminal Statement, DesignatorStatement, OptPrintPart;
+nonterminal Assignop;
+nonterminal   Addop;
+nonterminal   Mulop, MinusTerm;
+
+nonterminal rs.etf.pp1.symboltable.concepts.Obj ProgramName, Program, NamespaceName, MethodDecl, MainName, ConstDecl, ConstDeclLoop, Designator, DesignatorList, ArrayIndexDsingerica;
+nonterminal rs.etf.pp1.symboltable.concepts.Struct Type, Expr, Factor, Term, OpTermLoop, MulOpFactorLoop;
+
+
+Program ::= (Program) PROG ProgramName NamespaceList DeclList LBRACE MethodDecl RBRACE;
+
+MethodDecl ::= (MethodDecl) VOID MainName LPAREN RPAREN VarDeclList LBRACE StatementList RBRACE ;
+
+MainName ::= (MainName) MAIN;
+
+ProgramName ::= (ProgramName)IDENT:programName;
+
+NamespaceList ::=	(NemaNamespace) /* epsilon */ 
+   					|
+   					(ImaNamespace) Namespace NamespaceList	;
+   					
+Namespace ::= (Namespace) NAMESPACE NamespaceName LBRACE DeclList LBRACE  RBRACE RBRACE;
+
+NamespaceName ::= (NamespaceName) IDENT:namespaceName;
+
+
+DeclList ::= (DeclarationsList) DeclList Decl   
+				|
+			 (NoDeclList)/* epsilon */ ;
+				
+Decl ::= (DeclType1)ConstDecl
+			|
+		error SEMICOLON:l {: parser.report_error("Izvrsen oporavak od greske do ; u liniji za definiciju golbalnih promjenljivih " + lleft,null);:}
+			|
+		error COMMA:l {: parser.report_error("Izvrsen oporavak od greske do , u liniji za definiciju golbalnih promjenljivih " + lleft,null);:}
+			|
+		 (DeclType2)VarDecl;
+		 
+ConstDecl ::= (ConstDecl) CONST ConstDeclType IDENT:ConstName  OP_EQUAL Consts ConstDeclLoop SEMICOLON ;
+
+ConstDeclType ::= (ConstDeclType) Type:constType;
+
+Consts ::= 	(ConstNum) NUMBER
+			|
+			(ConstCh) CHAR
+			|
+			(ConstBool) BOOL;
+			
+ConstDeclLoop ::= 	(ConstDeclLoopEpsilon) /* epsilon */
+					|
+					(ConstDeclLoopList) ConstDeclLoop COMMA IDENT:constName OP_EQUAL Consts ;
+
+VarDecl ::=	(VarDecl) VarDeclType IDENT:varName SquareBraces  SquareBracesLoop	SEMICOLON ;
+
+VarDeclType ::= (VarDeclType) Type:varType;
+
+
+SquareBraces ::= (SquareBracesEpsilon) /* epsilon */
+						|
+				 (SquareBracesHere) LSQUARE RSQUARE;
+				 
+SquareBracesLoop ::= (SquareBracesLoopEpsilon) /* epsilon */
+						|
+				 	 (SquareBracesLoopList) SquareBracesLoop COMMA IDENT:varName  SquareBracesInnerLoop ;
+				 	 
+				 	 
+SquareBracesInnerLoop ::= (SquareBracesInnerLoopEpsilon) /* epsilon */
+						|
+				 (SquareBracesInnerLoopHere) LSQUARE RSQUARE;
+				 	 
+VarDeclList ::= (VarDeclListEpsilon)  /* epsilon */
+				|
+				(VarDeclListList) VarDeclList VarDecl;
+
+
+Type ::= (TypeExtend) IDENT COLON COLON IDENT | (Typesimple) IDENT:typeName ;
+
+StatementList ::= (StatementListEpsilon) /* epsilon */
+					|
+				  (StatementListList) StatementList Statement;
+				  
+Statement::= (StatementFirst) DesignatorStatement SEMICOLON		
+				|		  
+			  error SEMICOLON:l {: parser.report_error("Izvrsen oporavak od greske do ; u liniji " + lleft,null);:}
+				|
+			 (ReadStatementSecond)READ LPAREN Designator RPAREN SEMICOLON
+			 	|
+			 (PrintStatementThird) PRINT LPAREN Expr OptPrintPart  RPAREN SEMICOLON ;
+			 	
+			
+OptPrintPart ::= (OptPrintPartEpsilon) 
+					|
+				 (OptPrintPartAvailable) COMMA NUMBER ;
+	
+
+DesignatorStatement ::= (DesignatorStatementFirst) Designator Assignop Expr
+						|
+						(DesignatorStatementSecond)Designator INCREMENT
+						|
+						(DesignatorStatementThird)Designator DECREMENT;
+			 
+Assignop ::= (Assignop) OP_EQUAL;
+
+
+Designator ::=(DesignatorFirst) IDENT:designatorNamespaceName COLON COLON IDENT:varName DesignatorList  | (DesignatorSecond) IDENT:varName DesignatorList ;
+
+
+DesignatorList ::= 	(DesignatorListForArray) DesignatorList ArrayIndexDsingerica:arrayindex
+					|
+					(DesignatorListEpsilon) /* epsilon */
+					|
+				   	(DesignatorListForClass) DesignatorList STOP IDENT;
+				  	
+				   
+				   
+ArrayIndexDsingerica ::= (ArrayIndexDsingerica)	LSQUARE Expr RSQUARE;   
+				   
+Expr ::= (ExprFirst) MinusTerm  OpTermLoop | (ExprSecond) Term OpTermLoop;
+
+MinusTerm::=(MinusTerm) MINUS Term;
+
+OpTermLoop ::= (OpTermLoopEpsilon) /* epsilon */
+				|
+			   (OpTermLoopList) OpTermLoop Addop Term;
+			   
+Addop ::= (AddopPlus)PLUS |(AddopMinus) MINUS;
+
+Term ::= (Term) Factor MulOpFactorLoop;
+
+MulOpFactorLoop ::= (MulOpFactorLoopEpsilon)
+					|
+					(MulOpFactorLoopList) MulOpFactorLoop Mulop Factor;
+					
+Mulop ::= (Mul)MULTIPLICATION |(Div)DIVISION|(Mod)MODULE;
+
+Factor ::= 	(FactorDes) Designator| 
+			(FactorNum)NUMBER|
+			(FactorChar) CHAR | 
+			(FactorBool)BOOL |
+			(FactorNewType) NEW Type ArrayIndexDsingerica |
+			(FactorExpress) LPAREN Expr RPAREN;
+
+

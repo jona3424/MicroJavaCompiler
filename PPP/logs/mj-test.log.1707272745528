@@ -1,0 +1,195 @@
+INFO  03:25:14,929 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  03:25:14,956 - #41 program
+INFO  03:25:14,956 - #47 test301
+INFO  03:25:14,956 - #29 {
+INFO  03:25:14,958 - #21 void
+INFO  03:25:14,958 - #2 main
+INFO  03:25:14,958 - #24 (
+INFO  03:25:14,959 - #6 )
+INFO  03:25:14,959 - #47 int
+INFO  03:25:14,959 - #47 a
+INFO  03:25:14,961 - #27 [
+INFO  03:25:14,961 - #42 ]
+INFO  03:25:14,961 - #8 ,
+INFO  03:25:14,963 - #47 b
+INFO  03:25:14,963 - #10 ;
+INFO  03:25:14,965 - #29 {
+INFO  03:25:14,967 - #47 a
+INFO  03:25:14,968 - #9 =
+INFO  03:25:14,969 - #12 new
+INFO  03:25:14,970 - #47 int
+INFO  03:25:14,970 - #27 [
+INFO  03:25:14,970 - #46 3
+INFO  03:25:14,978 - #42 ]
+INFO  03:25:14,979 - #10 ;
+INFO  03:25:14,980 - #47 a
+INFO  03:25:14,980 - #27 [
+INFO  03:25:14,981 - #46 0
+INFO  03:25:14,981 - #42 ]
+INFO  03:25:14,981 - #9 =
+INFO  03:25:14,981 - #46 5
+INFO  03:25:14,981 - #10 ;
+INFO  03:25:14,981 - #37 print
+INFO  03:25:14,981 - #24 (
+INFO  03:25:14,981 - #47 a
+INFO  03:25:14,981 - #27 [
+INFO  03:25:14,981 - #46 0
+INFO  03:25:14,981 - #42 ]
+INFO  03:25:14,981 - #6 )
+INFO  03:25:14,982 - #10 ;
+INFO  03:25:14,982 - #13 }
+INFO  03:25:14,983 - #13 }
+INFO  03:25:14,990 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       a
+        SquareBracesHere(
+        ) [SquareBracesHere]
+        SquareBracesLoopList(
+          SquareBracesLoopEpsilon(
+          ) [SquareBracesLoopEpsilon]
+         b
+          SquareBracesInnerLoopEpsilon(
+          ) [SquareBracesInnerLoopEpsilon]
+        ) [SquareBracesLoopList]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListList(
+        StatementListList(
+          StatementListEpsilon(
+          ) [StatementListEpsilon]
+          StatementFirst(
+            DesignatorStatementFirst(
+              DesignatorSecond(
+               a
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+              ) [DesignatorSecond]
+              Assignop(
+              ) [Assignop]
+              ExprSecond(
+                Term(
+                  FactorNewType(
+                    Typesimple(
+                     int
+                    ) [Typesimple]
+                    ArrayIndexDsingerica(
+                      ExprSecond(
+                        Term(
+                          FactorNum(
+                           3
+                          ) [FactorNum]
+                          MulOpFactorLoopEpsilon(
+                          ) [MulOpFactorLoopEpsilon]
+                        ) [Term]
+                        OpTermLoopEpsilon(
+                        ) [OpTermLoopEpsilon]
+                      ) [ExprSecond]
+                    ) [ArrayIndexDsingerica]
+                  ) [FactorNewType]
+                  MulOpFactorLoopEpsilon(
+                  ) [MulOpFactorLoopEpsilon]
+                ) [Term]
+                OpTermLoopEpsilon(
+                ) [OpTermLoopEpsilon]
+              ) [ExprSecond]
+            ) [DesignatorStatementFirst]
+          ) [StatementFirst]
+        ) [StatementListList]
+        StatementFirst(
+          DesignatorStatementFirst(
+            DesignatorSecond(
+             a
+              DesignatorListForArray(
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+                ArrayIndexDsingerica(
+                  ExprSecond(
+                    Term(
+                      FactorNum(
+                       0
+                      ) [FactorNum]
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                    ) [Term]
+                    OpTermLoopEpsilon(
+                    ) [OpTermLoopEpsilon]
+                  ) [ExprSecond]
+                ) [ArrayIndexDsingerica]
+              ) [DesignatorListForArray]
+            ) [DesignatorSecond]
+            Assignop(
+            ) [Assignop]
+            ExprSecond(
+              Term(
+                FactorNum(
+                 5
+                ) [FactorNum]
+                MulOpFactorLoopEpsilon(
+                ) [MulOpFactorLoopEpsilon]
+              ) [Term]
+              OpTermLoopEpsilon(
+              ) [OpTermLoopEpsilon]
+            ) [ExprSecond]
+          ) [DesignatorStatementFirst]
+        ) [StatementFirst]
+      ) [StatementListList]
+      PrintStatementThird(
+        ExprSecond(
+          Term(
+            FactorDes(
+              DesignatorSecond(
+               a
+                DesignatorListForArray(
+                  DesignatorListEpsilon(
+                  ) [DesignatorListEpsilon]
+                  ArrayIndexDsingerica(
+                    ExprSecond(
+                      Term(
+                        FactorNum(
+                         0
+                        ) [FactorNum]
+                        MulOpFactorLoopEpsilon(
+                        ) [MulOpFactorLoopEpsilon]
+                      ) [Term]
+                      OpTermLoopEpsilon(
+                      ) [OpTermLoopEpsilon]
+                    ) [ExprSecond]
+                  ) [ArrayIndexDsingerica]
+                ) [DesignatorListForArray]
+              ) [DesignatorSecond]
+            ) [FactorDes]
+            MulOpFactorLoopEpsilon(
+            ) [MulOpFactorLoopEpsilon]
+          ) [Term]
+          OpTermLoopEpsilon(
+          ) [OpTermLoopEpsilon]
+        ) [ExprSecond]
+        OptPrintPartEpsilon(
+        ) [OptPrintPartEpsilon]
+      ) [PrintStatementThird]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  03:25:14,990 - ===================================
+INFO  03:25:14,994 - ===================================
+INFO  03:25:14,997 - 2
+INFO  03:25:14,998 - Parsiranje uspesno zavrseno!

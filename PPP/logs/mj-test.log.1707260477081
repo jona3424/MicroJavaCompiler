@@ -1,0 +1,71 @@
+INFO  00:00:41,864 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  00:00:41,894 - #41 program
+INFO  00:00:41,894 - #47 test301
+INFO  00:00:41,894 - #29 {
+INFO  00:00:41,896 - #21 void
+INFO  00:00:41,896 - #2 main
+INFO  00:00:41,897 - #24 (
+INFO  00:00:41,898 - #6 )
+INFO  00:00:41,898 - #47 int
+INFO  00:00:41,899 - #47 bodovi
+INFO  00:00:41,899 - #10 ;
+INFO  00:00:41,902 - #29 {
+INFO  00:00:41,904 - #37 print
+INFO  00:00:41,905 - #24 (
+INFO  00:00:41,905 - #46 10
+INFO  00:00:41,905 - #6 )
+INFO  00:00:41,908 - #10 ;
+INFO  00:00:41,908 - #13 }
+INFO  00:00:41,909 - #13 }
+INFO  00:00:41,918 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       bodovi
+        SquareBracesEpsilon(
+        ) [SquareBracesEpsilon]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+      PrintStatementThird(
+        ExprSecond(
+          Term(
+            FactorNum(
+             10
+            ) [FactorNum]
+            MulOpFactorLoopEpsilon(
+            ) [MulOpFactorLoopEpsilon]
+          ) [Term]
+          OpTermLoopEpsilon(
+          ) [OpTermLoopEpsilon]
+        ) [ExprSecond]
+        OptPrintPartEpsilon(
+        ) [OptPrintPartEpsilon]
+      ) [PrintStatementThird]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:00:41,921 - ===================================
+INFO  00:00:41,924 - ===================================
+INFO  00:00:41,927 - 1
+INFO  00:00:41,928 - Parsiranje uspesno zavrseno!

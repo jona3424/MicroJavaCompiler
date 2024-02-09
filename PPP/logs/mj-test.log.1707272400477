@@ -1,0 +1,141 @@
+INFO  03:19:02,467 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  03:19:02,499 - #41 program
+INFO  03:19:02,500 - #47 test301
+INFO  03:19:02,500 - #29 {
+INFO  03:19:02,502 - #21 void
+INFO  03:19:02,503 - #2 main
+INFO  03:19:02,503 - #24 (
+INFO  03:19:02,504 - #6 )
+INFO  03:19:02,504 - #47 int
+INFO  03:19:02,505 - #47 a
+INFO  03:19:02,506 - #27 [
+INFO  03:19:02,506 - #42 ]
+INFO  03:19:02,506 - #8 ,
+INFO  03:19:02,507 - #47 b
+INFO  03:19:02,507 - #10 ;
+INFO  03:19:02,509 - #29 {
+INFO  03:19:02,511 - #47 a
+INFO  03:19:02,513 - #9 =
+INFO  03:19:02,514 - #12 new
+INFO  03:19:02,514 - #47 int
+INFO  03:19:02,515 - #27 [
+INFO  03:19:02,515 - #46 3
+INFO  03:19:02,517 - #42 ]
+INFO  03:19:02,519 - #10 ;
+INFO  03:19:02,519 - #13 }
+INFO  03:19:02,520 - #13 }
+INFO  03:19:02,527 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       a
+        SquareBracesHere(
+        ) [SquareBracesHere]
+        SquareBracesLoopList(
+          SquareBracesLoopEpsilon(
+          ) [SquareBracesLoopEpsilon]
+         b
+          SquareBracesInnerLoopEpsilon(
+          ) [SquareBracesInnerLoopEpsilon]
+        ) [SquareBracesLoopList]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListEpsilon(
+      ) [StatementListEpsilon]
+      StatementFirst(
+        DesignatorStatementFirst(
+          DesignatorSecond(
+           a
+            DesignatorListEpsilon(
+            ) [DesignatorListEpsilon]
+          ) [DesignatorSecond]
+          Assignop(
+          ) [Assignop]
+          ExprSecond(
+            Term(
+              FactorNewType(
+                Typesimple(
+                 int
+                ) [Typesimple]
+                ArrayIndexDsingerica(
+                  ExprSecond(
+                    Term(
+                      FactorNum(
+                       3
+                      ) [FactorNum]
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                    ) [Term]
+                    OpTermLoopEpsilon(
+                    ) [OpTermLoopEpsilon]
+                  ) [ExprSecond]
+                ) [ArrayIndexDsingerica]
+              ) [FactorNewType]
+              MulOpFactorLoopEpsilon(
+              ) [MulOpFactorLoopEpsilon]
+            ) [Term]
+            OpTermLoopEpsilon(
+            ) [OpTermLoopEpsilon]
+          ) [ExprSecond]
+        ) [DesignatorStatementFirst]
+      ) [StatementFirst]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  03:19:02,528 - ===================================
+INFO  03:19:02,532 - 1
+INFO  03:19:02,532 - DesignatorStatementFirst(
+  DesignatorSecond(
+   a
+    DesignatorListEpsilon(
+    ) [DesignatorListEpsilon]
+  ) [DesignatorSecond]
+  Assignop(
+  ) [Assignop]
+  ExprSecond(
+    Term(
+      FactorNewType(
+        Typesimple(
+         int
+        ) [Typesimple]
+        ArrayIndexDsingerica(
+          ExprSecond(
+            Term(
+              FactorNum(
+               3
+              ) [FactorNum]
+              MulOpFactorLoopEpsilon(
+              ) [MulOpFactorLoopEpsilon]
+            ) [Term]
+            OpTermLoopEpsilon(
+            ) [OpTermLoopEpsilon]
+          ) [ExprSecond]
+        ) [ArrayIndexDsingerica]
+      ) [FactorNewType]
+      MulOpFactorLoopEpsilon(
+      ) [MulOpFactorLoopEpsilon]
+    ) [Term]
+    OpTermLoopEpsilon(
+    ) [OpTermLoopEpsilon]
+  ) [ExprSecond]
+) [DesignatorStatementFirst]
+ERROR 03:19:02,533 - Tip neterminala Expr mora biti kompatibilan pri dodeli sa tipom neterminala Designator na liniji 10
+INFO  03:19:02,533 - ===================================
+ERROR 03:19:02,533 - Parsiranje NIJE uspesno zavrseno!

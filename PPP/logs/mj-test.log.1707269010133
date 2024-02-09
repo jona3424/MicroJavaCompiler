@@ -1,0 +1,127 @@
+INFO  00:54:42,006 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  00:54:42,051 - #41 program
+INFO  00:54:42,052 - #47 test301
+INFO  00:54:42,052 - #29 {
+INFO  00:54:42,055 - #21 void
+INFO  00:54:42,055 - #2 main
+INFO  00:54:42,055 - #24 (
+INFO  00:54:42,056 - #6 )
+INFO  00:54:42,057 - #47 int
+INFO  00:54:42,057 - #47 bodovi
+INFO  00:54:42,059 - #27 [
+INFO  00:54:42,059 - #42 ]
+INFO  00:54:42,060 - #10 ;
+INFO  00:54:42,063 - #29 {
+INFO  00:54:42,065 - #47 bodovi
+INFO  00:54:42,066 - #9 =
+INFO  00:54:42,068 - #12 new
+INFO  00:54:42,069 - #47 int
+INFO  00:54:42,069 - #27 [
+INFO  00:54:42,069 - #46 10
+INFO  00:54:42,070 - #42 ]
+INFO  00:54:42,073 - #10 ;
+INFO  00:54:42,075 - #37 print
+INFO  00:54:42,075 - #24 (
+INFO  00:54:42,075 - #47 bodovi
+INFO  00:54:42,076 - #6 )
+INFO  00:54:42,077 - #10 ;
+INFO  00:54:42,077 - #13 }
+INFO  00:54:42,077 - #13 }
+INFO  00:54:42,092 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  NemaNamespace(
+  ) [NemaNamespace]
+  NoDeclList(
+  ) [NoDeclList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListEpsilon(
+      ) [VarDeclListEpsilon]
+      VarDecl(
+        VarDeclType(
+          Typesimple(
+           int
+          ) [Typesimple]
+        ) [VarDeclType]
+       bodovi
+        SquareBracesHere(
+        ) [SquareBracesHere]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListList(
+        StatementListEpsilon(
+        ) [StatementListEpsilon]
+        StatementFirst(
+          DesignatorStatementFirst(
+            DesignatorSecond(
+             bodovi
+              DesignatorListEpsilon(
+              ) [DesignatorListEpsilon]
+            ) [DesignatorSecond]
+            Assignop(
+            ) [Assignop]
+            ExprSecond(
+              Term(
+                FactorNewType(
+                  Typesimple(
+                   int
+                  ) [Typesimple]
+                  ArrayIndexDsingerica(
+                    ExprSecond(
+                      Term(
+                        FactorNum(
+                         10
+                        ) [FactorNum]
+                        MulOpFactorLoopEpsilon(
+                        ) [MulOpFactorLoopEpsilon]
+                      ) [Term]
+                      OpTermLoopEpsilon(
+                      ) [OpTermLoopEpsilon]
+                    ) [ExprSecond]
+                  ) [ArrayIndexDsingerica]
+                ) [FactorNewType]
+                MulOpFactorLoopEpsilon(
+                ) [MulOpFactorLoopEpsilon]
+              ) [Term]
+              OpTermLoopEpsilon(
+              ) [OpTermLoopEpsilon]
+            ) [ExprSecond]
+          ) [DesignatorStatementFirst]
+        ) [StatementFirst]
+      ) [StatementListList]
+      PrintStatementThird(
+        ExprSecond(
+          Term(
+            FactorDes(
+              DesignatorSecond(
+               bodovi
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+              ) [DesignatorSecond]
+            ) [FactorDes]
+            MulOpFactorLoopEpsilon(
+            ) [MulOpFactorLoopEpsilon]
+          ) [Term]
+          OpTermLoopEpsilon(
+          ) [OpTermLoopEpsilon]
+        ) [ExprSecond]
+        OptPrintPartEpsilon(
+        ) [OptPrintPartEpsilon]
+      ) [PrintStatementThird]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  00:54:42,092 - ===================================
+INFO  00:54:42,099 - ===================================
+INFO  00:54:42,106 - 1
+INFO  00:54:42,106 - Typesimple(
+ int
+) [Typesimple]
+INFO  00:54:42,108 - Parsiranje uspesno zavrseno!

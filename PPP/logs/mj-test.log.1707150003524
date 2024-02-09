@@ -1,0 +1,1485 @@
+INFO  17:18:36,357 - Compiling source file: C:\Users\petri\OneDrive\Desktop\pp1proj\pp1lab.templateAST\workspace\PPP\test\program.mj
+INFO  17:18:36,383 - #41 program
+INFO  17:18:36,383 - #47 test301
+INFO  17:18:36,383 - #38 namespace
+INFO  17:18:36,384 - #47 Konstante
+INFO  17:18:36,384 - #29 {
+INFO  17:18:36,385 - #22 const
+INFO  17:18:36,385 - #47 int
+INFO  17:18:36,386 - #47 nula
+INFO  17:18:36,386 - #9 =
+INFO  17:18:36,386 - #46 0
+INFO  17:18:36,386 - #10 ;
+INFO  17:18:36,387 - #22 const
+INFO  17:18:36,388 - #47 int
+INFO  17:18:36,388 - #47 jedan
+INFO  17:18:36,388 - #9 =
+INFO  17:18:36,388 - #46 1
+INFO  17:18:36,388 - #10 ;
+INFO  17:18:36,388 - #22 const
+INFO  17:18:36,388 - #47 int
+INFO  17:18:36,388 - #47 pet
+INFO  17:18:36,389 - #9 =
+INFO  17:18:36,389 - #46 5
+INFO  17:18:36,389 - #10 ;
+INFO  17:18:36,389 - #29 {
+INFO  17:18:36,390 - #13 }
+INFO  17:18:36,390 - #13 }
+INFO  17:18:36,390 - #38 namespace
+INFO  17:18:36,391 - #47 Nizovi
+INFO  17:18:36,391 - #29 {
+INFO  17:18:36,391 - #47 int
+INFO  17:18:36,391 - #47 niz
+INFO  17:18:36,391 - #27 [
+INFO  17:18:36,392 - #42 ]
+INFO  17:18:36,392 - #10 ;
+INFO  17:18:36,395 - #47 char
+INFO  17:18:36,396 - #47 nizch
+INFO  17:18:36,396 - #27 [
+INFO  17:18:36,396 - #42 ]
+INFO  17:18:36,396 - #10 ;
+INFO  17:18:36,396 - #29 {
+INFO  17:18:36,396 - #13 }
+INFO  17:18:36,396 - #13 }
+INFO  17:18:36,396 - #47 int
+INFO  17:18:36,398 - #47 a
+INFO  17:18:36,398 - #10 ;
+INFO  17:18:36,399 - #29 {
+INFO  17:18:36,399 - #21 void
+INFO  17:18:36,399 - #2 main
+INFO  17:18:36,399 - #24 (
+INFO  17:18:36,400 - #6 )
+INFO  17:18:36,400 - #47 int
+INFO  17:18:36,400 - #47 bodovi
+INFO  17:18:36,400 - #10 ;
+INFO  17:18:36,400 - #47 bool
+INFO  17:18:36,400 - #47 bt
+INFO  17:18:36,401 - #10 ;
+INFO  17:18:36,401 - #47 int
+INFO  17:18:36,401 - #47 a
+INFO  17:18:36,401 - #10 ;
+INFO  17:18:36,401 - #29 {
+INFO  17:18:36,401 - #47 bodovi
+INFO  17:18:36,402 - #9 =
+INFO  17:18:36,402 - #46 0
+INFO  17:18:36,403 - #10 ;
+INFO  17:18:36,404 - #47 bodovi
+INFO  17:18:36,405 - #32 ++
+INFO  17:18:36,405 - #10 ;
+INFO  17:18:36,405 - #47 bodovi
+INFO  17:18:36,405 - #9 =
+INFO  17:18:36,405 - #47 bodovi
+INFO  17:18:36,405 - #4 +
+INFO  17:18:36,405 - #47 Konstante
+INFO  17:18:36,406 - #3 :
+INFO  17:18:36,406 - #3 :
+INFO  17:18:36,406 - #47 jedan
+INFO  17:18:36,406 - #10 ;
+INFO  17:18:36,407 - #47 bodovi
+INFO  17:18:36,407 - #9 =
+INFO  17:18:36,407 - #47 bodovi
+INFO  17:18:36,407 - #36 *
+INFO  17:18:36,407 - #47 Konstante
+INFO  17:18:36,408 - #3 :
+INFO  17:18:36,408 - #3 :
+INFO  17:18:36,408 - #47 pet
+INFO  17:18:36,408 - #10 ;
+INFO  17:18:36,409 - #47 bodovi
+INFO  17:18:36,409 - #40 --
+INFO  17:18:36,409 - #10 ;
+INFO  17:18:36,409 - #37 print
+INFO  17:18:36,409 - #24 (
+INFO  17:18:36,409 - #47 bodovi
+INFO  17:18:36,409 - #6 )
+INFO  17:18:36,410 - #10 ;
+INFO  17:18:36,410 - #47 Nizovi
+INFO  17:18:36,410 - #3 :
+INFO  17:18:36,410 - #3 :
+INFO  17:18:36,410 - #47 niz
+INFO  17:18:36,410 - #9 =
+INFO  17:18:36,410 - #12 new
+INFO  17:18:36,410 - #47 int
+INFO  17:18:36,410 - #27 [
+INFO  17:18:36,410 - #46 3
+INFO  17:18:36,410 - #42 ]
+INFO  17:18:36,411 - #10 ;
+INFO  17:18:36,411 - #47 Nizovi
+INFO  17:18:36,411 - #3 :
+INFO  17:18:36,411 - #3 :
+INFO  17:18:36,411 - #47 niz
+INFO  17:18:36,411 - #27 [
+INFO  17:18:36,411 - #47 Konstante
+INFO  17:18:36,411 - #3 :
+INFO  17:18:36,411 - #3 :
+INFO  17:18:36,411 - #47 nula
+INFO  17:18:36,411 - #42 ]
+INFO  17:18:36,411 - #9 =
+INFO  17:18:36,412 - #47 Konstante
+INFO  17:18:36,412 - #3 :
+INFO  17:18:36,412 - #3 :
+INFO  17:18:36,412 - #47 jedan
+INFO  17:18:36,412 - #10 ;
+INFO  17:18:36,412 - #47 Nizovi
+INFO  17:18:36,412 - #3 :
+INFO  17:18:36,412 - #3 :
+INFO  17:18:36,412 - #47 niz
+INFO  17:18:36,412 - #27 [
+INFO  17:18:36,412 - #46 1
+INFO  17:18:36,412 - #42 ]
+INFO  17:18:36,413 - #9 =
+INFO  17:18:36,413 - #46 2
+INFO  17:18:36,413 - #10 ;
+INFO  17:18:36,413 - #47 Nizovi
+INFO  17:18:36,413 - #3 :
+INFO  17:18:36,413 - #3 :
+INFO  17:18:36,413 - #47 niz
+INFO  17:18:36,413 - #27 [
+INFO  17:18:36,413 - #47 Nizovi
+INFO  17:18:36,413 - #3 :
+INFO  17:18:36,413 - #3 :
+INFO  17:18:36,413 - #47 niz
+INFO  17:18:36,413 - #27 [
+INFO  17:18:36,413 - #47 Konstante
+INFO  17:18:36,413 - #3 :
+INFO  17:18:36,413 - #3 :
+INFO  17:18:36,413 - #47 jedan
+INFO  17:18:36,413 - #42 ]
+INFO  17:18:36,414 - #42 ]
+INFO  17:18:36,414 - #9 =
+INFO  17:18:36,414 - #47 Nizovi
+INFO  17:18:36,414 - #3 :
+INFO  17:18:36,414 - #3 :
+INFO  17:18:36,414 - #47 niz
+INFO  17:18:36,414 - #27 [
+INFO  17:18:36,414 - #47 Nizovi
+INFO  17:18:36,414 - #3 :
+INFO  17:18:36,414 - #3 :
+INFO  17:18:36,414 - #47 niz
+INFO  17:18:36,414 - #27 [
+INFO  17:18:36,414 - #46 0
+INFO  17:18:36,414 - #42 ]
+INFO  17:18:36,414 - #42 ]
+INFO  17:18:36,414 - #36 *
+INFO  17:18:36,414 - #46 3
+INFO  17:18:36,415 - #10 ;
+INFO  17:18:36,415 - #47 bodovi
+INFO  17:18:36,415 - #9 =
+INFO  17:18:36,415 - #47 Nizovi
+INFO  17:18:36,415 - #3 :
+INFO  17:18:36,415 - #3 :
+INFO  17:18:36,415 - #47 niz
+INFO  17:18:36,415 - #27 [
+INFO  17:18:36,415 - #46 2
+INFO  17:18:36,415 - #42 ]
+INFO  17:18:36,415 - #33 /
+INFO  17:18:36,415 - #47 Nizovi
+INFO  17:18:36,417 - #3 :
+INFO  17:18:36,417 - #3 :
+INFO  17:18:36,417 - #47 niz
+INFO  17:18:36,417 - #27 [
+INFO  17:18:36,417 - #46 0
+INFO  17:18:36,417 - #42 ]
+INFO  17:18:36,418 - #10 ;
+INFO  17:18:36,418 - #37 print
+INFO  17:18:36,418 - #24 (
+INFO  17:18:36,418 - #47 bodovi
+INFO  17:18:36,418 - #6 )
+INFO  17:18:36,418 - #10 ;
+INFO  17:18:36,418 - #37 print
+INFO  17:18:36,418 - #24 (
+INFO  17:18:36,418 - #47 Nizovi
+INFO  17:18:36,418 - #3 :
+INFO  17:18:36,418 - #3 :
+INFO  17:18:36,419 - #47 niz
+INFO  17:18:36,419 - #27 [
+INFO  17:18:36,419 - #46 2
+INFO  17:18:36,419 - #42 ]
+INFO  17:18:36,419 - #6 )
+INFO  17:18:36,419 - #10 ;
+INFO  17:18:36,419 - #47 Nizovi
+INFO  17:18:36,419 - #3 :
+INFO  17:18:36,419 - #3 :
+INFO  17:18:36,419 - #47 nizch
+INFO  17:18:36,419 - #9 =
+INFO  17:18:36,419 - #12 new
+INFO  17:18:36,419 - #47 char
+INFO  17:18:36,420 - #27 [
+INFO  17:18:36,420 - #46 3
+INFO  17:18:36,420 - #42 ]
+INFO  17:18:36,420 - #10 ;
+INFO  17:18:36,420 - #47 Nizovi
+INFO  17:18:36,420 - #3 :
+INFO  17:18:36,420 - #3 :
+INFO  17:18:36,420 - #47 nizch
+INFO  17:18:36,420 - #27 [
+INFO  17:18:36,420 - #46 0
+INFO  17:18:36,420 - #42 ]
+INFO  17:18:36,420 - #9 =
+INFO  17:18:36,421 - #48 a
+INFO  17:18:36,421 - #10 ;
+INFO  17:18:36,421 - #47 Nizovi
+INFO  17:18:36,421 - #3 :
+INFO  17:18:36,421 - #3 :
+INFO  17:18:36,421 - #47 nizch
+INFO  17:18:36,421 - #27 [
+INFO  17:18:36,421 - #47 Konstante
+INFO  17:18:36,421 - #3 :
+INFO  17:18:36,421 - #3 :
+INFO  17:18:36,421 - #47 jedan
+INFO  17:18:36,421 - #42 ]
+INFO  17:18:36,421 - #9 =
+INFO  17:18:36,421 - #48 b
+INFO  17:18:36,421 - #10 ;
+INFO  17:18:36,421 - #47 Nizovi
+INFO  17:18:36,421 - #3 :
+INFO  17:18:36,421 - #3 :
+INFO  17:18:36,422 - #47 nizch
+INFO  17:18:36,422 - #27 [
+INFO  17:18:36,422 - #47 Konstante
+INFO  17:18:36,422 - #3 :
+INFO  17:18:36,422 - #3 :
+INFO  17:18:36,422 - #47 pet
+INFO  17:18:36,422 - #17 -
+INFO  17:18:36,422 - #46 3
+INFO  17:18:36,422 - #42 ]
+INFO  17:18:36,423 - #9 =
+INFO  17:18:36,423 - #48 c
+INFO  17:18:36,423 - #10 ;
+INFO  17:18:36,423 - #37 print
+INFO  17:18:36,423 - #24 (
+INFO  17:18:36,423 - #47 Nizovi
+INFO  17:18:36,423 - #3 :
+INFO  17:18:36,424 - #3 :
+INFO  17:18:36,424 - #47 nizch
+INFO  17:18:36,424 - #27 [
+INFO  17:18:36,424 - #46 1
+INFO  17:18:36,424 - #42 ]
+INFO  17:18:36,424 - #6 )
+INFO  17:18:36,424 - #10 ;
+INFO  17:18:36,424 - #37 print
+INFO  17:18:36,424 - #24 (
+INFO  17:18:36,424 - #47 Nizovi
+INFO  17:18:36,424 - #3 :
+INFO  17:18:36,425 - #3 :
+INFO  17:18:36,425 - #47 nizch
+INFO  17:18:36,425 - #27 [
+INFO  17:18:36,425 - #47 Konstante
+INFO  17:18:36,425 - #3 :
+INFO  17:18:36,425 - #3 :
+INFO  17:18:36,425 - #47 jedan
+INFO  17:18:36,425 - #36 *
+INFO  17:18:36,425 - #46 2
+INFO  17:18:36,425 - #42 ]
+INFO  17:18:36,426 - #6 )
+INFO  17:18:36,426 - #10 ;
+INFO  17:18:36,426 - #47 a
+INFO  17:18:36,426 - #9 =
+INFO  17:18:36,426 - #46 1
+INFO  17:18:36,426 - #10 ;
+INFO  17:18:36,426 - #30 read
+INFO  17:18:36,426 - #24 (
+INFO  17:18:36,426 - #47 bodovi
+INFO  17:18:36,426 - #6 )
+INFO  17:18:36,426 - #10 ;
+INFO  17:18:36,426 - #47 bodovi
+INFO  17:18:36,427 - #9 =
+INFO  17:18:36,427 - #17 -
+INFO  17:18:36,427 - #47 bodovi
+INFO  17:18:36,427 - #4 +
+INFO  17:18:36,427 - #24 (
+INFO  17:18:36,427 - #47 Konstante
+INFO  17:18:36,427 - #3 :
+INFO  17:18:36,427 - #3 :
+INFO  17:18:36,427 - #47 pet
+INFO  17:18:36,427 - #36 *
+INFO  17:18:36,427 - #47 a
+INFO  17:18:36,427 - #33 /
+INFO  17:18:36,427 - #46 2
+INFO  17:18:36,427 - #17 -
+INFO  17:18:36,427 - #47 Konstante
+INFO  17:18:36,427 - #3 :
+INFO  17:18:36,427 - #3 :
+INFO  17:18:36,427 - #47 jedan
+INFO  17:18:36,428 - #6 )
+INFO  17:18:36,428 - #36 *
+INFO  17:18:36,428 - #47 bodovi
+INFO  17:18:36,428 - #17 -
+INFO  17:18:36,428 - #24 (
+INFO  17:18:36,428 - #46 3
+INFO  17:18:36,428 - #31 %
+INFO  17:18:36,428 - #46 2
+INFO  17:18:36,429 - #4 +
+INFO  17:18:36,429 - #46 3
+INFO  17:18:36,429 - #36 *
+INFO  17:18:36,429 - #46 2
+INFO  17:18:36,429 - #17 -
+INFO  17:18:36,429 - #46 3
+INFO  17:18:36,429 - #6 )
+INFO  17:18:36,429 - #10 ;
+INFO  17:18:36,429 - #37 print
+INFO  17:18:36,429 - #24 (
+INFO  17:18:36,429 - #47 bodovi
+INFO  17:18:36,429 - #6 )
+INFO  17:18:36,429 - #10 ;
+INFO  17:18:36,429 - #13 }
+INFO  17:18:36,429 - #13 }
+INFO  17:18:36,439 - Program(
+  ProgramName(
+   test301
+  ) [ProgramName]
+  ImaNamespace(
+    Namespace(
+      NamespaceName(
+       Konstante
+      ) [NamespaceName]
+      DeclarationsList(
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclList(
+            ) [NoDeclList]
+            DeclType1(
+              ConstDecl(
+                Typesimple(
+                 int
+                ) [Typesimple]
+               nula
+                ConstNum(
+                 0
+                ) [ConstNum]
+                ConstDeclLoopEpsilon(
+                ) [ConstDeclLoopEpsilon]
+              ) [ConstDecl]
+            ) [DeclType1]
+          ) [DeclarationsList]
+          DeclType1(
+            ConstDecl(
+              Typesimple(
+               int
+              ) [Typesimple]
+             jedan
+              ConstNum(
+               1
+              ) [ConstNum]
+              ConstDeclLoopEpsilon(
+              ) [ConstDeclLoopEpsilon]
+            ) [ConstDecl]
+          ) [DeclType1]
+        ) [DeclarationsList]
+        DeclType1(
+          ConstDecl(
+            Typesimple(
+             int
+            ) [Typesimple]
+           pet
+            ConstNum(
+             5
+            ) [ConstNum]
+            ConstDeclLoopEpsilon(
+            ) [ConstDeclLoopEpsilon]
+          ) [ConstDecl]
+        ) [DeclType1]
+      ) [DeclarationsList]
+    ) [Namespace]
+    ImaNamespace(
+      Namespace(
+        NamespaceName(
+         Nizovi
+        ) [NamespaceName]
+        DeclarationsList(
+          DeclarationsList(
+            NoDeclList(
+            ) [NoDeclList]
+            DeclType2(
+              VarDecl(
+                Typesimple(
+                 int
+                ) [Typesimple]
+               niz
+                SquareBracesDerived1(
+                ) [SquareBracesDerived1]
+                SquareBracesLoopEpsilon(
+                ) [SquareBracesLoopEpsilon]
+              ) [VarDecl]
+            ) [DeclType2]
+          ) [DeclarationsList]
+          DeclType2(
+            VarDecl(
+              Typesimple(
+               char
+              ) [Typesimple]
+             nizch
+              SquareBracesDerived1(
+              ) [SquareBracesDerived1]
+              SquareBracesLoopEpsilon(
+              ) [SquareBracesLoopEpsilon]
+            ) [VarDecl]
+          ) [DeclType2]
+        ) [DeclarationsList]
+      ) [Namespace]
+      NemaNamespace(
+      ) [NemaNamespace]
+    ) [ImaNamespace]
+  ) [ImaNamespace]
+  DeclarationsList(
+    NoDeclList(
+    ) [NoDeclList]
+    DeclType2(
+      VarDecl(
+        Typesimple(
+         int
+        ) [Typesimple]
+       a
+        SquareBracesEpsilon(
+        ) [SquareBracesEpsilon]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [DeclType2]
+  ) [DeclarationsList]
+  MethodDecl(
+    MainName(
+    ) [MainName]
+    VarDeclListList(
+      VarDeclListList(
+        VarDeclListList(
+          VarDeclListEpsilon(
+          ) [VarDeclListEpsilon]
+          VarDecl(
+            Typesimple(
+             int
+            ) [Typesimple]
+           bodovi
+            SquareBracesEpsilon(
+            ) [SquareBracesEpsilon]
+            SquareBracesLoopEpsilon(
+            ) [SquareBracesLoopEpsilon]
+          ) [VarDecl]
+        ) [VarDeclListList]
+        VarDecl(
+          Typesimple(
+           bool
+          ) [Typesimple]
+         bt
+          SquareBracesEpsilon(
+          ) [SquareBracesEpsilon]
+          SquareBracesLoopEpsilon(
+          ) [SquareBracesLoopEpsilon]
+        ) [VarDecl]
+      ) [VarDeclListList]
+      VarDecl(
+        Typesimple(
+         int
+        ) [Typesimple]
+       a
+        SquareBracesEpsilon(
+        ) [SquareBracesEpsilon]
+        SquareBracesLoopEpsilon(
+        ) [SquareBracesLoopEpsilon]
+      ) [VarDecl]
+    ) [VarDeclListList]
+    StatementListList(
+      StatementListList(
+        StatementListList(
+          StatementListList(
+            StatementListList(
+              StatementListList(
+                StatementListList(
+                  StatementListList(
+                    StatementListList(
+                      StatementListList(
+                        StatementListList(
+                          StatementListList(
+                            StatementListList(
+                              StatementListList(
+                                StatementListList(
+                                  StatementListList(
+                                    StatementListList(
+                                      StatementListList(
+                                        StatementListList(
+                                          StatementListList(
+                                            StatementListList(
+                                              StatementListList(
+                                                StatementListList(
+                                                  StatementListEpsilon(
+                                                  ) [StatementListEpsilon]
+                                                  StatementFirst(
+                                                    DesignatorStatementFirst(
+                                                      DesignatorSecond(
+                                                       bodovi
+                                                        DesignatorListEpsilon(
+                                                        ) [DesignatorListEpsilon]
+                                                      ) [DesignatorSecond]
+                                                      Assignop(
+                                                      ) [Assignop]
+                                                      ExprSecond(
+                                                        TermDerived1(
+                                                          FactorNum(
+                                                           0
+                                                          ) [FactorNum]
+                                                          MulOpFactorLoopEpsilon(
+                                                          ) [MulOpFactorLoopEpsilon]
+                                                        ) [TermDerived1]
+                                                        OpTermLoopEpsilon(
+                                                        ) [OpTermLoopEpsilon]
+                                                      ) [ExprSecond]
+                                                    ) [DesignatorStatementFirst]
+                                                  ) [StatementFirst]
+                                                ) [StatementListList]
+                                                StatementFirst(
+                                                  DesignatorStatementSecond(
+                                                    DesignatorSecond(
+                                                     bodovi
+                                                      DesignatorListEpsilon(
+                                                      ) [DesignatorListEpsilon]
+                                                    ) [DesignatorSecond]
+                                                  ) [DesignatorStatementSecond]
+                                                ) [StatementFirst]
+                                              ) [StatementListList]
+                                              StatementFirst(
+                                                DesignatorStatementFirst(
+                                                  DesignatorSecond(
+                                                   bodovi
+                                                    DesignatorListEpsilon(
+                                                    ) [DesignatorListEpsilon]
+                                                  ) [DesignatorSecond]
+                                                  Assignop(
+                                                  ) [Assignop]
+                                                  ExprSecond(
+                                                    TermDerived1(
+                                                      FactorDes(
+                                                        DesignatorSecond(
+                                                         bodovi
+                                                          DesignatorListEpsilon(
+                                                          ) [DesignatorListEpsilon]
+                                                        ) [DesignatorSecond]
+                                                      ) [FactorDes]
+                                                      MulOpFactorLoopEpsilon(
+                                                      ) [MulOpFactorLoopEpsilon]
+                                                    ) [TermDerived1]
+                                                    OpTermLoopList(
+                                                      OpTermLoopEpsilon(
+                                                      ) [OpTermLoopEpsilon]
+                                                      AddopPlus(
+                                                      ) [AddopPlus]
+                                                      TermDerived1(
+                                                        FactorDes(
+                                                          DesignatorFirst(
+                                                           Konstante
+                                                           jedan
+                                                            DesignatorListEpsilon(
+                                                            ) [DesignatorListEpsilon]
+                                                          ) [DesignatorFirst]
+                                                        ) [FactorDes]
+                                                        MulOpFactorLoopEpsilon(
+                                                        ) [MulOpFactorLoopEpsilon]
+                                                      ) [TermDerived1]
+                                                    ) [OpTermLoopList]
+                                                  ) [ExprSecond]
+                                                ) [DesignatorStatementFirst]
+                                              ) [StatementFirst]
+                                            ) [StatementListList]
+                                            StatementFirst(
+                                              DesignatorStatementFirst(
+                                                DesignatorSecond(
+                                                 bodovi
+                                                  DesignatorListEpsilon(
+                                                  ) [DesignatorListEpsilon]
+                                                ) [DesignatorSecond]
+                                                Assignop(
+                                                ) [Assignop]
+                                                ExprSecond(
+                                                  TermDerived1(
+                                                    FactorDes(
+                                                      DesignatorSecond(
+                                                       bodovi
+                                                        DesignatorListEpsilon(
+                                                        ) [DesignatorListEpsilon]
+                                                      ) [DesignatorSecond]
+                                                    ) [FactorDes]
+                                                    MulOpFactorLoopList(
+                                                      MulOpFactorLoopEpsilon(
+                                                      ) [MulOpFactorLoopEpsilon]
+                                                      Mul(
+                                                      ) [Mul]
+                                                      FactorDes(
+                                                        DesignatorFirst(
+                                                         Konstante
+                                                         pet
+                                                          DesignatorListEpsilon(
+                                                          ) [DesignatorListEpsilon]
+                                                        ) [DesignatorFirst]
+                                                      ) [FactorDes]
+                                                    ) [MulOpFactorLoopList]
+                                                  ) [TermDerived1]
+                                                  OpTermLoopEpsilon(
+                                                  ) [OpTermLoopEpsilon]
+                                                ) [ExprSecond]
+                                              ) [DesignatorStatementFirst]
+                                            ) [StatementFirst]
+                                          ) [StatementListList]
+                                          StatementFirst(
+                                            DesignatorStatementThird(
+                                              DesignatorSecond(
+                                               bodovi
+                                                DesignatorListEpsilon(
+                                                ) [DesignatorListEpsilon]
+                                              ) [DesignatorSecond]
+                                            ) [DesignatorStatementThird]
+                                          ) [StatementFirst]
+                                        ) [StatementListList]
+                                        PrintStatementThird(
+                                          ExprSecond(
+                                            TermDerived1(
+                                              FactorDes(
+                                                DesignatorSecond(
+                                                 bodovi
+                                                  DesignatorListEpsilon(
+                                                  ) [DesignatorListEpsilon]
+                                                ) [DesignatorSecond]
+                                              ) [FactorDes]
+                                              MulOpFactorLoopEpsilon(
+                                              ) [MulOpFactorLoopEpsilon]
+                                            ) [TermDerived1]
+                                            OpTermLoopEpsilon(
+                                            ) [OpTermLoopEpsilon]
+                                          ) [ExprSecond]
+                                          OptPrintPartEpsilon(
+                                          ) [OptPrintPartEpsilon]
+                                        ) [PrintStatementThird]
+                                      ) [StatementListList]
+                                      StatementFirst(
+                                        DesignatorStatementFirst(
+                                          DesignatorFirst(
+                                           Nizovi
+                                           niz
+                                            DesignatorListEpsilon(
+                                            ) [DesignatorListEpsilon]
+                                          ) [DesignatorFirst]
+                                          Assignop(
+                                          ) [Assignop]
+                                          ExprSecond(
+                                            TermDerived1(
+                                              FactorNewType(
+                                                Typesimple(
+                                                 int
+                                                ) [Typesimple]
+                                                ExprSecond(
+                                                  TermDerived1(
+                                                    FactorNum(
+                                                     3
+                                                    ) [FactorNum]
+                                                    MulOpFactorLoopEpsilon(
+                                                    ) [MulOpFactorLoopEpsilon]
+                                                  ) [TermDerived1]
+                                                  OpTermLoopEpsilon(
+                                                  ) [OpTermLoopEpsilon]
+                                                ) [ExprSecond]
+                                              ) [FactorNewType]
+                                              MulOpFactorLoopEpsilon(
+                                              ) [MulOpFactorLoopEpsilon]
+                                            ) [TermDerived1]
+                                            OpTermLoopEpsilon(
+                                            ) [OpTermLoopEpsilon]
+                                          ) [ExprSecond]
+                                        ) [DesignatorStatementFirst]
+                                      ) [StatementFirst]
+                                    ) [StatementListList]
+                                    StatementFirst(
+                                      DesignatorStatementFirst(
+                                        DesignatorFirst(
+                                         Nizovi
+                                         niz
+                                          DesignatorListSecond(
+                                            DesignatorListEpsilon(
+                                            ) [DesignatorListEpsilon]
+                                            ExprSecond(
+                                              TermDerived1(
+                                                FactorDes(
+                                                  DesignatorFirst(
+                                                   Konstante
+                                                   nula
+                                                    DesignatorListEpsilon(
+                                                    ) [DesignatorListEpsilon]
+                                                  ) [DesignatorFirst]
+                                                ) [FactorDes]
+                                                MulOpFactorLoopEpsilon(
+                                                ) [MulOpFactorLoopEpsilon]
+                                              ) [TermDerived1]
+                                              OpTermLoopEpsilon(
+                                              ) [OpTermLoopEpsilon]
+                                            ) [ExprSecond]
+                                          ) [DesignatorListSecond]
+                                        ) [DesignatorFirst]
+                                        Assignop(
+                                        ) [Assignop]
+                                        ExprSecond(
+                                          TermDerived1(
+                                            FactorDes(
+                                              DesignatorFirst(
+                                               Konstante
+                                               jedan
+                                                DesignatorListEpsilon(
+                                                ) [DesignatorListEpsilon]
+                                              ) [DesignatorFirst]
+                                            ) [FactorDes]
+                                            MulOpFactorLoopEpsilon(
+                                            ) [MulOpFactorLoopEpsilon]
+                                          ) [TermDerived1]
+                                          OpTermLoopEpsilon(
+                                          ) [OpTermLoopEpsilon]
+                                        ) [ExprSecond]
+                                      ) [DesignatorStatementFirst]
+                                    ) [StatementFirst]
+                                  ) [StatementListList]
+                                  StatementFirst(
+                                    DesignatorStatementFirst(
+                                      DesignatorFirst(
+                                       Nizovi
+                                       niz
+                                        DesignatorListSecond(
+                                          DesignatorListEpsilon(
+                                          ) [DesignatorListEpsilon]
+                                          ExprSecond(
+                                            TermDerived1(
+                                              FactorNum(
+                                               1
+                                              ) [FactorNum]
+                                              MulOpFactorLoopEpsilon(
+                                              ) [MulOpFactorLoopEpsilon]
+                                            ) [TermDerived1]
+                                            OpTermLoopEpsilon(
+                                            ) [OpTermLoopEpsilon]
+                                          ) [ExprSecond]
+                                        ) [DesignatorListSecond]
+                                      ) [DesignatorFirst]
+                                      Assignop(
+                                      ) [Assignop]
+                                      ExprSecond(
+                                        TermDerived1(
+                                          FactorNum(
+                                           2
+                                          ) [FactorNum]
+                                          MulOpFactorLoopEpsilon(
+                                          ) [MulOpFactorLoopEpsilon]
+                                        ) [TermDerived1]
+                                        OpTermLoopEpsilon(
+                                        ) [OpTermLoopEpsilon]
+                                      ) [ExprSecond]
+                                    ) [DesignatorStatementFirst]
+                                  ) [StatementFirst]
+                                ) [StatementListList]
+                                StatementFirst(
+                                  DesignatorStatementFirst(
+                                    DesignatorFirst(
+                                     Nizovi
+                                     niz
+                                      DesignatorListSecond(
+                                        DesignatorListEpsilon(
+                                        ) [DesignatorListEpsilon]
+                                        ExprSecond(
+                                          TermDerived1(
+                                            FactorDes(
+                                              DesignatorFirst(
+                                               Nizovi
+                                               niz
+                                                DesignatorListSecond(
+                                                  DesignatorListEpsilon(
+                                                  ) [DesignatorListEpsilon]
+                                                  ExprSecond(
+                                                    TermDerived1(
+                                                      FactorDes(
+                                                        DesignatorFirst(
+                                                         Konstante
+                                                         jedan
+                                                          DesignatorListEpsilon(
+                                                          ) [DesignatorListEpsilon]
+                                                        ) [DesignatorFirst]
+                                                      ) [FactorDes]
+                                                      MulOpFactorLoopEpsilon(
+                                                      ) [MulOpFactorLoopEpsilon]
+                                                    ) [TermDerived1]
+                                                    OpTermLoopEpsilon(
+                                                    ) [OpTermLoopEpsilon]
+                                                  ) [ExprSecond]
+                                                ) [DesignatorListSecond]
+                                              ) [DesignatorFirst]
+                                            ) [FactorDes]
+                                            MulOpFactorLoopEpsilon(
+                                            ) [MulOpFactorLoopEpsilon]
+                                          ) [TermDerived1]
+                                          OpTermLoopEpsilon(
+                                          ) [OpTermLoopEpsilon]
+                                        ) [ExprSecond]
+                                      ) [DesignatorListSecond]
+                                    ) [DesignatorFirst]
+                                    Assignop(
+                                    ) [Assignop]
+                                    ExprSecond(
+                                      TermDerived1(
+                                        FactorDes(
+                                          DesignatorFirst(
+                                           Nizovi
+                                           niz
+                                            DesignatorListSecond(
+                                              DesignatorListEpsilon(
+                                              ) [DesignatorListEpsilon]
+                                              ExprSecond(
+                                                TermDerived1(
+                                                  FactorDes(
+                                                    DesignatorFirst(
+                                                     Nizovi
+                                                     niz
+                                                      DesignatorListSecond(
+                                                        DesignatorListEpsilon(
+                                                        ) [DesignatorListEpsilon]
+                                                        ExprSecond(
+                                                          TermDerived1(
+                                                            FactorNum(
+                                                             0
+                                                            ) [FactorNum]
+                                                            MulOpFactorLoopEpsilon(
+                                                            ) [MulOpFactorLoopEpsilon]
+                                                          ) [TermDerived1]
+                                                          OpTermLoopEpsilon(
+                                                          ) [OpTermLoopEpsilon]
+                                                        ) [ExprSecond]
+                                                      ) [DesignatorListSecond]
+                                                    ) [DesignatorFirst]
+                                                  ) [FactorDes]
+                                                  MulOpFactorLoopEpsilon(
+                                                  ) [MulOpFactorLoopEpsilon]
+                                                ) [TermDerived1]
+                                                OpTermLoopEpsilon(
+                                                ) [OpTermLoopEpsilon]
+                                              ) [ExprSecond]
+                                            ) [DesignatorListSecond]
+                                          ) [DesignatorFirst]
+                                        ) [FactorDes]
+                                        MulOpFactorLoopList(
+                                          MulOpFactorLoopEpsilon(
+                                          ) [MulOpFactorLoopEpsilon]
+                                          Mul(
+                                          ) [Mul]
+                                          FactorNum(
+                                           3
+                                          ) [FactorNum]
+                                        ) [MulOpFactorLoopList]
+                                      ) [TermDerived1]
+                                      OpTermLoopEpsilon(
+                                      ) [OpTermLoopEpsilon]
+                                    ) [ExprSecond]
+                                  ) [DesignatorStatementFirst]
+                                ) [StatementFirst]
+                              ) [StatementListList]
+                              StatementFirst(
+                                DesignatorStatementFirst(
+                                  DesignatorSecond(
+                                   bodovi
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                  ) [DesignatorSecond]
+                                  Assignop(
+                                  ) [Assignop]
+                                  ExprSecond(
+                                    TermDerived1(
+                                      FactorDes(
+                                        DesignatorFirst(
+                                         Nizovi
+                                         niz
+                                          DesignatorListSecond(
+                                            DesignatorListEpsilon(
+                                            ) [DesignatorListEpsilon]
+                                            ExprSecond(
+                                              TermDerived1(
+                                                FactorNum(
+                                                 2
+                                                ) [FactorNum]
+                                                MulOpFactorLoopEpsilon(
+                                                ) [MulOpFactorLoopEpsilon]
+                                              ) [TermDerived1]
+                                              OpTermLoopEpsilon(
+                                              ) [OpTermLoopEpsilon]
+                                            ) [ExprSecond]
+                                          ) [DesignatorListSecond]
+                                        ) [DesignatorFirst]
+                                      ) [FactorDes]
+                                      MulOpFactorLoopList(
+                                        MulOpFactorLoopEpsilon(
+                                        ) [MulOpFactorLoopEpsilon]
+                                        Div(
+                                        ) [Div]
+                                        FactorDes(
+                                          DesignatorFirst(
+                                           Nizovi
+                                           niz
+                                            DesignatorListSecond(
+                                              DesignatorListEpsilon(
+                                              ) [DesignatorListEpsilon]
+                                              ExprSecond(
+                                                TermDerived1(
+                                                  FactorNum(
+                                                   0
+                                                  ) [FactorNum]
+                                                  MulOpFactorLoopEpsilon(
+                                                  ) [MulOpFactorLoopEpsilon]
+                                                ) [TermDerived1]
+                                                OpTermLoopEpsilon(
+                                                ) [OpTermLoopEpsilon]
+                                              ) [ExprSecond]
+                                            ) [DesignatorListSecond]
+                                          ) [DesignatorFirst]
+                                        ) [FactorDes]
+                                      ) [MulOpFactorLoopList]
+                                    ) [TermDerived1]
+                                    OpTermLoopEpsilon(
+                                    ) [OpTermLoopEpsilon]
+                                  ) [ExprSecond]
+                                ) [DesignatorStatementFirst]
+                              ) [StatementFirst]
+                            ) [StatementListList]
+                            PrintStatementThird(
+                              ExprSecond(
+                                TermDerived1(
+                                  FactorDes(
+                                    DesignatorSecond(
+                                     bodovi
+                                      DesignatorListEpsilon(
+                                      ) [DesignatorListEpsilon]
+                                    ) [DesignatorSecond]
+                                  ) [FactorDes]
+                                  MulOpFactorLoopEpsilon(
+                                  ) [MulOpFactorLoopEpsilon]
+                                ) [TermDerived1]
+                                OpTermLoopEpsilon(
+                                ) [OpTermLoopEpsilon]
+                              ) [ExprSecond]
+                              OptPrintPartEpsilon(
+                              ) [OptPrintPartEpsilon]
+                            ) [PrintStatementThird]
+                          ) [StatementListList]
+                          PrintStatementThird(
+                            ExprSecond(
+                              TermDerived1(
+                                FactorDes(
+                                  DesignatorFirst(
+                                   Nizovi
+                                   niz
+                                    DesignatorListSecond(
+                                      DesignatorListEpsilon(
+                                      ) [DesignatorListEpsilon]
+                                      ExprSecond(
+                                        TermDerived1(
+                                          FactorNum(
+                                           2
+                                          ) [FactorNum]
+                                          MulOpFactorLoopEpsilon(
+                                          ) [MulOpFactorLoopEpsilon]
+                                        ) [TermDerived1]
+                                        OpTermLoopEpsilon(
+                                        ) [OpTermLoopEpsilon]
+                                      ) [ExprSecond]
+                                    ) [DesignatorListSecond]
+                                  ) [DesignatorFirst]
+                                ) [FactorDes]
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                              ) [TermDerived1]
+                              OpTermLoopEpsilon(
+                              ) [OpTermLoopEpsilon]
+                            ) [ExprSecond]
+                            OptPrintPartEpsilon(
+                            ) [OptPrintPartEpsilon]
+                          ) [PrintStatementThird]
+                        ) [StatementListList]
+                        StatementFirst(
+                          DesignatorStatementFirst(
+                            DesignatorFirst(
+                             Nizovi
+                             nizch
+                              DesignatorListEpsilon(
+                              ) [DesignatorListEpsilon]
+                            ) [DesignatorFirst]
+                            Assignop(
+                            ) [Assignop]
+                            ExprSecond(
+                              TermDerived1(
+                                FactorNewType(
+                                  Typesimple(
+                                   char
+                                  ) [Typesimple]
+                                  ExprSecond(
+                                    TermDerived1(
+                                      FactorNum(
+                                       3
+                                      ) [FactorNum]
+                                      MulOpFactorLoopEpsilon(
+                                      ) [MulOpFactorLoopEpsilon]
+                                    ) [TermDerived1]
+                                    OpTermLoopEpsilon(
+                                    ) [OpTermLoopEpsilon]
+                                  ) [ExprSecond]
+                                ) [FactorNewType]
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                              ) [TermDerived1]
+                              OpTermLoopEpsilon(
+                              ) [OpTermLoopEpsilon]
+                            ) [ExprSecond]
+                          ) [DesignatorStatementFirst]
+                        ) [StatementFirst]
+                      ) [StatementListList]
+                      StatementFirst(
+                        DesignatorStatementFirst(
+                          DesignatorFirst(
+                           Nizovi
+                           nizch
+                            DesignatorListSecond(
+                              DesignatorListEpsilon(
+                              ) [DesignatorListEpsilon]
+                              ExprSecond(
+                                TermDerived1(
+                                  FactorNum(
+                                   0
+                                  ) [FactorNum]
+                                  MulOpFactorLoopEpsilon(
+                                  ) [MulOpFactorLoopEpsilon]
+                                ) [TermDerived1]
+                                OpTermLoopEpsilon(
+                                ) [OpTermLoopEpsilon]
+                              ) [ExprSecond]
+                            ) [DesignatorListSecond]
+                          ) [DesignatorFirst]
+                          Assignop(
+                          ) [Assignop]
+                          ExprSecond(
+                            TermDerived1(
+                              FactorChar(
+                               a
+                              ) [FactorChar]
+                              MulOpFactorLoopEpsilon(
+                              ) [MulOpFactorLoopEpsilon]
+                            ) [TermDerived1]
+                            OpTermLoopEpsilon(
+                            ) [OpTermLoopEpsilon]
+                          ) [ExprSecond]
+                        ) [DesignatorStatementFirst]
+                      ) [StatementFirst]
+                    ) [StatementListList]
+                    StatementFirst(
+                      DesignatorStatementFirst(
+                        DesignatorFirst(
+                         Nizovi
+                         nizch
+                          DesignatorListSecond(
+                            DesignatorListEpsilon(
+                            ) [DesignatorListEpsilon]
+                            ExprSecond(
+                              TermDerived1(
+                                FactorDes(
+                                  DesignatorFirst(
+                                   Konstante
+                                   jedan
+                                    DesignatorListEpsilon(
+                                    ) [DesignatorListEpsilon]
+                                  ) [DesignatorFirst]
+                                ) [FactorDes]
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                              ) [TermDerived1]
+                              OpTermLoopEpsilon(
+                              ) [OpTermLoopEpsilon]
+                            ) [ExprSecond]
+                          ) [DesignatorListSecond]
+                        ) [DesignatorFirst]
+                        Assignop(
+                        ) [Assignop]
+                        ExprSecond(
+                          TermDerived1(
+                            FactorChar(
+                             b
+                            ) [FactorChar]
+                            MulOpFactorLoopEpsilon(
+                            ) [MulOpFactorLoopEpsilon]
+                          ) [TermDerived1]
+                          OpTermLoopEpsilon(
+                          ) [OpTermLoopEpsilon]
+                        ) [ExprSecond]
+                      ) [DesignatorStatementFirst]
+                    ) [StatementFirst]
+                  ) [StatementListList]
+                  StatementFirst(
+                    DesignatorStatementFirst(
+                      DesignatorFirst(
+                       Nizovi
+                       nizch
+                        DesignatorListSecond(
+                          DesignatorListEpsilon(
+                          ) [DesignatorListEpsilon]
+                          ExprSecond(
+                            TermDerived1(
+                              FactorDes(
+                                DesignatorFirst(
+                                 Konstante
+                                 pet
+                                  DesignatorListEpsilon(
+                                  ) [DesignatorListEpsilon]
+                                ) [DesignatorFirst]
+                              ) [FactorDes]
+                              MulOpFactorLoopEpsilon(
+                              ) [MulOpFactorLoopEpsilon]
+                            ) [TermDerived1]
+                            OpTermLoopList(
+                              OpTermLoopEpsilon(
+                              ) [OpTermLoopEpsilon]
+                              AddopMinus(
+                              ) [AddopMinus]
+                              TermDerived1(
+                                FactorNum(
+                                 3
+                                ) [FactorNum]
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                              ) [TermDerived1]
+                            ) [OpTermLoopList]
+                          ) [ExprSecond]
+                        ) [DesignatorListSecond]
+                      ) [DesignatorFirst]
+                      Assignop(
+                      ) [Assignop]
+                      ExprSecond(
+                        TermDerived1(
+                          FactorChar(
+                           c
+                          ) [FactorChar]
+                          MulOpFactorLoopEpsilon(
+                          ) [MulOpFactorLoopEpsilon]
+                        ) [TermDerived1]
+                        OpTermLoopEpsilon(
+                        ) [OpTermLoopEpsilon]
+                      ) [ExprSecond]
+                    ) [DesignatorStatementFirst]
+                  ) [StatementFirst]
+                ) [StatementListList]
+                PrintStatementThird(
+                  ExprSecond(
+                    TermDerived1(
+                      FactorDes(
+                        DesignatorFirst(
+                         Nizovi
+                         nizch
+                          DesignatorListSecond(
+                            DesignatorListEpsilon(
+                            ) [DesignatorListEpsilon]
+                            ExprSecond(
+                              TermDerived1(
+                                FactorNum(
+                                 1
+                                ) [FactorNum]
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                              ) [TermDerived1]
+                              OpTermLoopEpsilon(
+                              ) [OpTermLoopEpsilon]
+                            ) [ExprSecond]
+                          ) [DesignatorListSecond]
+                        ) [DesignatorFirst]
+                      ) [FactorDes]
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                    ) [TermDerived1]
+                    OpTermLoopEpsilon(
+                    ) [OpTermLoopEpsilon]
+                  ) [ExprSecond]
+                  OptPrintPartEpsilon(
+                  ) [OptPrintPartEpsilon]
+                ) [PrintStatementThird]
+              ) [StatementListList]
+              PrintStatementThird(
+                ExprSecond(
+                  TermDerived1(
+                    FactorDes(
+                      DesignatorFirst(
+                       Nizovi
+                       nizch
+                        DesignatorListSecond(
+                          DesignatorListEpsilon(
+                          ) [DesignatorListEpsilon]
+                          ExprSecond(
+                            TermDerived1(
+                              FactorDes(
+                                DesignatorFirst(
+                                 Konstante
+                                 jedan
+                                  DesignatorListEpsilon(
+                                  ) [DesignatorListEpsilon]
+                                ) [DesignatorFirst]
+                              ) [FactorDes]
+                              MulOpFactorLoopList(
+                                MulOpFactorLoopEpsilon(
+                                ) [MulOpFactorLoopEpsilon]
+                                Mul(
+                                ) [Mul]
+                                FactorNum(
+                                 2
+                                ) [FactorNum]
+                              ) [MulOpFactorLoopList]
+                            ) [TermDerived1]
+                            OpTermLoopEpsilon(
+                            ) [OpTermLoopEpsilon]
+                          ) [ExprSecond]
+                        ) [DesignatorListSecond]
+                      ) [DesignatorFirst]
+                    ) [FactorDes]
+                    MulOpFactorLoopEpsilon(
+                    ) [MulOpFactorLoopEpsilon]
+                  ) [TermDerived1]
+                  OpTermLoopEpsilon(
+                  ) [OpTermLoopEpsilon]
+                ) [ExprSecond]
+                OptPrintPartEpsilon(
+                ) [OptPrintPartEpsilon]
+              ) [PrintStatementThird]
+            ) [StatementListList]
+            StatementFirst(
+              DesignatorStatementFirst(
+                DesignatorSecond(
+                 a
+                  DesignatorListEpsilon(
+                  ) [DesignatorListEpsilon]
+                ) [DesignatorSecond]
+                Assignop(
+                ) [Assignop]
+                ExprSecond(
+                  TermDerived1(
+                    FactorNum(
+                     1
+                    ) [FactorNum]
+                    MulOpFactorLoopEpsilon(
+                    ) [MulOpFactorLoopEpsilon]
+                  ) [TermDerived1]
+                  OpTermLoopEpsilon(
+                  ) [OpTermLoopEpsilon]
+                ) [ExprSecond]
+              ) [DesignatorStatementFirst]
+            ) [StatementFirst]
+          ) [StatementListList]
+          ReadStatementSecond(
+            DesignatorSecond(
+             bodovi
+              DesignatorListEpsilon(
+              ) [DesignatorListEpsilon]
+            ) [DesignatorSecond]
+          ) [ReadStatementSecond]
+        ) [StatementListList]
+        StatementFirst(
+          DesignatorStatementFirst(
+            DesignatorSecond(
+             bodovi
+              DesignatorListEpsilon(
+              ) [DesignatorListEpsilon]
+            ) [DesignatorSecond]
+            Assignop(
+            ) [Assignop]
+            ExprFirst(
+              TermDerived1(
+                FactorDes(
+                  DesignatorSecond(
+                   bodovi
+                    DesignatorListEpsilon(
+                    ) [DesignatorListEpsilon]
+                  ) [DesignatorSecond]
+                ) [FactorDes]
+                MulOpFactorLoopEpsilon(
+                ) [MulOpFactorLoopEpsilon]
+              ) [TermDerived1]
+              OpTermLoopList(
+                OpTermLoopList(
+                  OpTermLoopEpsilon(
+                  ) [OpTermLoopEpsilon]
+                  AddopPlus(
+                  ) [AddopPlus]
+                  TermDerived1(
+                    FactorExpress(
+                      ExprSecond(
+                        TermDerived1(
+                          FactorDes(
+                            DesignatorFirst(
+                             Konstante
+                             pet
+                              DesignatorListEpsilon(
+                              ) [DesignatorListEpsilon]
+                            ) [DesignatorFirst]
+                          ) [FactorDes]
+                          MulOpFactorLoopList(
+                            MulOpFactorLoopList(
+                              MulOpFactorLoopEpsilon(
+                              ) [MulOpFactorLoopEpsilon]
+                              Mul(
+                              ) [Mul]
+                              FactorDes(
+                                DesignatorSecond(
+                                 a
+                                  DesignatorListEpsilon(
+                                  ) [DesignatorListEpsilon]
+                                ) [DesignatorSecond]
+                              ) [FactorDes]
+                            ) [MulOpFactorLoopList]
+                            Div(
+                            ) [Div]
+                            FactorNum(
+                             2
+                            ) [FactorNum]
+                          ) [MulOpFactorLoopList]
+                        ) [TermDerived1]
+                        OpTermLoopList(
+                          OpTermLoopEpsilon(
+                          ) [OpTermLoopEpsilon]
+                          AddopMinus(
+                          ) [AddopMinus]
+                          TermDerived1(
+                            FactorDes(
+                              DesignatorFirst(
+                               Konstante
+                               jedan
+                                DesignatorListEpsilon(
+                                ) [DesignatorListEpsilon]
+                              ) [DesignatorFirst]
+                            ) [FactorDes]
+                            MulOpFactorLoopEpsilon(
+                            ) [MulOpFactorLoopEpsilon]
+                          ) [TermDerived1]
+                        ) [OpTermLoopList]
+                      ) [ExprSecond]
+                    ) [FactorExpress]
+                    MulOpFactorLoopList(
+                      MulOpFactorLoopEpsilon(
+                      ) [MulOpFactorLoopEpsilon]
+                      Mul(
+                      ) [Mul]
+                      FactorDes(
+                        DesignatorSecond(
+                         bodovi
+                          DesignatorListEpsilon(
+                          ) [DesignatorListEpsilon]
+                        ) [DesignatorSecond]
+                      ) [FactorDes]
+                    ) [MulOpFactorLoopList]
+                  ) [TermDerived1]
+                ) [OpTermLoopList]
+                AddopMinus(
+                ) [AddopMinus]
+                TermDerived1(
+                  FactorExpress(
+                    ExprSecond(
+                      TermDerived1(
+                        FactorNum(
+                         3
+                        ) [FactorNum]
+                        MulOpFactorLoopList(
+                          MulOpFactorLoopEpsilon(
+                          ) [MulOpFactorLoopEpsilon]
+                          Mod(
+                          ) [Mod]
+                          FactorNum(
+                           2
+                          ) [FactorNum]
+                        ) [MulOpFactorLoopList]
+                      ) [TermDerived1]
+                      OpTermLoopList(
+                        OpTermLoopList(
+                          OpTermLoopEpsilon(
+                          ) [OpTermLoopEpsilon]
+                          AddopPlus(
+                          ) [AddopPlus]
+                          TermDerived1(
+                            FactorNum(
+                             3
+                            ) [FactorNum]
+                            MulOpFactorLoopList(
+                              MulOpFactorLoopEpsilon(
+                              ) [MulOpFactorLoopEpsilon]
+                              Mul(
+                              ) [Mul]
+                              FactorNum(
+                               2
+                              ) [FactorNum]
+                            ) [MulOpFactorLoopList]
+                          ) [TermDerived1]
+                        ) [OpTermLoopList]
+                        AddopMinus(
+                        ) [AddopMinus]
+                        TermDerived1(
+                          FactorNum(
+                           3
+                          ) [FactorNum]
+                          MulOpFactorLoopEpsilon(
+                          ) [MulOpFactorLoopEpsilon]
+                        ) [TermDerived1]
+                      ) [OpTermLoopList]
+                    ) [ExprSecond]
+                  ) [FactorExpress]
+                  MulOpFactorLoopEpsilon(
+                  ) [MulOpFactorLoopEpsilon]
+                ) [TermDerived1]
+              ) [OpTermLoopList]
+            ) [ExprFirst]
+          ) [DesignatorStatementFirst]
+        ) [StatementFirst]
+      ) [StatementListList]
+      PrintStatementThird(
+        ExprSecond(
+          TermDerived1(
+            FactorDes(
+              DesignatorSecond(
+               bodovi
+                DesignatorListEpsilon(
+                ) [DesignatorListEpsilon]
+              ) [DesignatorSecond]
+            ) [FactorDes]
+            MulOpFactorLoopEpsilon(
+            ) [MulOpFactorLoopEpsilon]
+          ) [TermDerived1]
+          OpTermLoopEpsilon(
+          ) [OpTermLoopEpsilon]
+        ) [ExprSecond]
+        OptPrintPartEpsilon(
+        ) [OptPrintPartEpsilon]
+      ) [PrintStatementThird]
+    ) [StatementListList]
+  ) [MethodDecl]
+) [Program]
+INFO  17:18:36,441 - ===================================
+INFO  17:18:36,445 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,445 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ char
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ bool
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ int
+) [Typesimple]
+INFO  17:18:36,446 - Typesimple(
+ char
+) [Typesimple]
+INFO  17:18:36,446 - ===================================
